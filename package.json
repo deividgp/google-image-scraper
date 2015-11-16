@@ -1,0 +1,21 @@
+{
+  "name": "google-image-scraper",
+  "version": "0.0.1",
+  "description": "Google image search scraper using cheerio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "google",
+    "image",
+    "search",
+    "scraping"
+  ],
+  "author": "Kohei Morino",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio-httpcli": "^0.3.7",
+    "html-entities": "^1.2.0"
+  }
+}
