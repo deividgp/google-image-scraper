@@ -4,6 +4,7 @@
   "description": "Google image search scraper using cheerio",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,7 +16,7 @@
   "author": "Kohei Morino",
   "license": "ISC",
   "dependencies": {
-    "cheerio-httpcli": "^0.3.7",
-    "html-entities": "^1.2.0"
+    "cheerio": "^1.0.0-rc.10",
+    "node-fetch": "^3.0.0"
   }
 }
